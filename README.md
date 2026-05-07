@@ -22,7 +22,7 @@ This project requires the updates to gem5 installed in Homework 9, such that gem
 
 The following files are included in this repository:
 
-  The files for the workload 'gerry' that simulates satellite onboard schedule repair, including the following: 
+  1. The files for the workload 'gerry' that simulates satellite onboard schedule repair, including the following: 
 
     main.c 
 
@@ -44,11 +44,11 @@ The following files are included in this repository:
  
     montecarlosimulation.c
 
-  The simulation script to run all three workloads through two architectures and store the stats:
+  2. The simulation script to run all three workloads through two architectures and store the stats:
 
     run_sat_tests.sh
 
-  Stat files from each simulation:
+  3. Stat files from each simulation:
   
     stats_rpi5_dense
  
@@ -62,7 +62,7 @@ The following files are included in this repository:
  
     stats_jetson_gerry
 
-  And the file for the final paper:
+  4. And the file for the final paper:
 
     finalProject-brooklynbeck.pdf
   
